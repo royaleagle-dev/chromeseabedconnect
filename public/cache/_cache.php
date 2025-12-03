@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Seabed Connect Limited</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<?= URL_ROOT; ?>assets/css/tail-output.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Chrome Seabed Connect Limited, Chrome Seabed Connect, Seabed Connect, Chrome Seabed, chrome seabed connect ltd., chrome seabed connect">
+    <meta name="description" content = "Chrome Seabed Connect is a company incorporated in Nigeria and Canada. We exist to make life easy for you when dealing with
+        immigration, Travel Consultancy, travel consultancy, travel, Travel, travelling, Travelling, import and export of goods & car sales and supply. We also help our clients on issues regarding study visa or work
+        visa to canada. All at prices that won't break the bank.">
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <!--
+            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo">
+            -->
+            <div class="flex" style="flex-direction:column">
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Chrome Seabed</span>
+                <span class="self-center text-sm font-semibold whitespace-nowrap dark:text-white">Connect Limited</span>
+            </div>
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">Get in Touch</button>
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#hero-section" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#about-section" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#services-section" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+            </li>
+            <li>
+              <a href="#contact-section" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+            <li>
+              <a href="#review-section" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reviews</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+      <style>
+        .hero{
+            padding-top: 7%;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('<?= URL_ROOT; ?>assets/images/ticket.jpg');
+            background-size:cover;
+        }
+        @media screen and (max-width: 750px){
+            .hero{
+                padding-top: 25%;
+            }
+        }
+      </style>
+    
+    <section class="hero px-5" style="height:120vh;" id="hero-section" data-aos="fade-in" data-aos-duration="500">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                  <ul class="splide__list">
+
+                    <li class="splide__slide">
+                        <div class="md:flex md:items-center md:justify-center" style="padding-top:17%;">
+                            <!--
+                            <div class="md:w-1/2" align="center">
+                                <img src="<?= URL_ROOT; ?>assets/images/image1.png" style="width:80%;height:auto;">
+                            </div>
+                            -->
+                            <div class="md:w-1/2 px-10 text-center">
+                                <h1 class="text-4xl mb-5 text-white font-bold">Certified Ticket Agent</h1>
+                                <p class="text-xl text-white">We are seasoned experts in the intricacies of travel arrangements.
+                                    We help you navigate through various travel options to secure the best deals for you. Our expertise also include:
+                                    arranging accomodations, transportation and activities tailored to your preferences.</p>
+                            </div>
+                        </div>
+                      </li>
+
+                      <li class="splide__slide">
+                        <div class="md:flex md:items-center md:justify-center" style="padding-top:17%;">
+                            <!--
+                            <div class="md:w-1/2" align="center">
+                                <img src="<?= URL_ROOT; ?>assets/images/image1.png" style="width:80%;height:auto;">
+                            </div>
+                            -->
+                            <div class="md:w-1/2 px-10 text-center">
+                                <h1 class="text-4xl mb-5 text-white font-bold">Import & Export of Goods</h1>
+                                <p class="text-xl text-white">Chrome Seabed Connect enables you to send goods to family, friends, associate and love ones from Nigeria to Canada and vice-versa at very affordable prices.</p>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="md:flex md:items-center md:justify-center" style="padding-top:17%">
+                            <!--
+                            <div class="md:w-1/2 mb-5" align="center">
+                                <img src="<?= URL_ROOT; ?>assets/images/image2.png" style="width:80%;height:auto;">
+                            </div>
+                            -->
+                            <div class="md:w-1/2 px-10 text-center">
+                                <h1 class="text-4xl mb-5 text-white font-bold">Car Sales & Supply</h1>
+                                <p class="text-xl text-white">Looking for where to buy cars? We can help you with that. We sell and supply cars to anywhere you are. Just let us know your needs.</p>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="md:flex md:items-center md:justify-center" style="padding-top:17%">
+                            <!--
+                            <div class="md:w-1/2" align="center">
+                                <img src="<?= URL_ROOT; ?>assets/images/image3.png" style="width:80%;height:auto;">
+                            </div>
+                            -->
+                            <div class="md:w-1/2 px-10 text-center">
+                                <h1 class="text-4xl mb-5 text-white font-bold">Travel Consultancy</h1>
+                                <p class="text-xl text-white">Travelling to Canada or any other country? Let us help you with your travelling process. Lay everything on us and we'll be sure to deliver perfectly and on time.</p>
+                            </div>
+                        </div>
+                      </li>
+                  </ul>
+            </div>
+          </section>
+    </section>
+
+    <section id="about-section" class="py-20 px-10 dark:bg-gray-800 dark:text-white" data-aos="slide-up" data-aos-duration="500">
+        <div class="md:flex md:items-center md:justify-center">
+            <div class="md:w-1/2 mb-5 text-center">
+                <h1 class="text-4xl text-blue-900 dark:text-white font-bold text-center">About Us</h1>
+                <div class="md:flex md:items-center md:justify-center">
+                    <div class="w-1/2">
+                        <hr class="text-center border b-8 border-blue-600 mt-5" style="border-width:5px;width:70%;">
+                    </div>
+                </div>
+                <p class="pt-5 mdtext-right text-center text-xl px-5">
+                    Chrome Seabed Connect is a company incorporated in Nigeria and Canada. We exist to make life easy for you when dealing with
+                    matters that involves travelling, import and export of goods & car sales and supply. We also help our clients on issues regarding study visa or work
+                    visa to canada. All at prices that won't break the bank.
+                </p>
+                <div style="margin-top:10%;margin-bottom:10%;">
+                    <a class="px-10 py-5 bg-purple-900 text-white hover:bg-blue-900 rounded-lg" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact" type="button">Make Enquiries</a>
+                </div>
+            </div>
+            <div class="md:w-1/2" align="center">
+                <img src="<?= URL_ROOT; ?>assets/images/image10.jpg" style="width:75%;height:auto;">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-900 hero px-5 pb-5" style="min-height:120vh;" id="services-section" data-aos="fade-up" data-aos-duration="3000">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold text-white">Our Services</h2>
+            <div class="md:flex md:items-center md:justify-center">
+                <div class="w-1/2">
+                    <hr class="text-center border b-8 border-blue-600 mt-5" align="center" style="border-width:5px;width:70%;">
+                </div>
+            </div>
+            <div class="mt-10 md:flex md:items-center md:justify-center gap-10 text-center px-10" align="center">
+                <div class="md:w-1/4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="<?= URL_ROOT; ?>assets/images/image11.jpg" alt="" style="height:60%width:auto;"/>
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Travel Consultancy</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Want to Travel? We're the best in the field</p>
+                        <a href="javascript:void(0)" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+                            Know More
+                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="<?= URL_ROOT; ?>assets/images/ticket.jpg" alt="" style="height:60%width:auto;"/>
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ticket Booking</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Travelling Somewhere? Book your ticket with us</p>
+                        <a href="javascript:void(0)" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+                            Know More
+                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="<?= URL_ROOT; ?>assets/images/image9.jpg" alt="" style="height:60%width:auto;"/>
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Imports & Exports</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Yeah!!you heard us. We import and export goods of any kind.</p>
+                        <a href="javascript:void(0)" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+                            Get Quote
+                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-10">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="<?= URL_ROOT; ?>assets/images/image13.jpg" alt="" style="height:60%width:auto;"/>
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Car Sales & Supply</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">We sell cars at affordable prices and also supply in large quantities.</p>
+                        <a href="javascript:void(0)" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+                            Send a Message
+                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]" id="newsletter-section" data-aos="fade-up" data-aos-duration="3000">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
+            <a href="#" class="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
+                <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <span class="text-sm font-medium">Reach Us Anywhere Anytime</span> 
+                <svg class="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+            </a>
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">We're SOCIAL</h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">You can reach out to us on any of our services via our website or socia media handles.</p>
+            <div class="md:flex md:items-center md:justify-center gap-5">
+                <div class="bg-green-500 text-center text-white rounded-lg p-5 mb-5">
+                    <span class="fa-brands fa-whatsapp text-4xl mb-3"></span>
+                    <p>+234-813-666-7839</p>
+                </div>
+                <div class="bg-blue-500 text-center text-white rounded-lg p-5 mb-5 cursor-pointer" onclick= "window.location ='https://facebook.com/chromeseabedconnect'">
+                    <span class="fa-brands fa-facebook text-4xl mb-3"></span>
+                    <p>@chromeseabedconnect</p>
+                </div>
+                <div class="bg-red-500 text-center text-white rounded-lg p-5 mb-5">
+                    <span class="fa-solid fa-envelope text-4xl mb-3"></span>
+                    <p>seabedc@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"></div>
+        -->
+    </section>
+
+
+    <section id="review-section" class="py-20 px-10 dark:bg-gray-800 dark:text-white" data-aos="slide-up" data-aos-duration="500">
+        <div class="md:flex md:items-center md:justify-center">
+            <div class="md:w-1/2 mb-5 text-center">
+                <h1 class="text-4xl text-blue-900 dark:text-white font-bold text-center">Testimonials</h1>
+                <div class="md:flex md:items-center md:justify-center">
+                    <div class="w-1/2">
+                        <hr class="text-center border b-8 border-blue-600 mt-5" style="border-width:5px;width:70%;">
+                    </div>
+                </div>
+                <p class="pt-5 mdtext-right text-center text-xl px-5">
+                    Here's what our customers have to say about us.
+                </p>
+                <!--
+                <div style="margin-top:10%;margin-bottom:10%;">
+                    <a class="px-10 py-5 bg-purple-900 text-white hover:bg-blue-900 rounded-lg" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact" type="button">Make Enquiries</a>
+                </div>
+                -->
+            </div>
+            
+            <div class="md:w-1/2" align="center">
+                
+                <?php  foreach($reviews as $review):  ?>
+                <div id="review-1" class="review max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><?= $review->firstname; ?> <?= $review->lastname; ?></h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        <?= $review->review; ?>
+                    </p>                        
+                    <!--
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                    -->
+                </div>
+                <?php  endforeach;  ?>
+
+                <!--
+                <img src="<?= URL_ROOT; ?>assets/images/image10.jpg" style="width:75%;height:auto;">
+                -->
+                <div class="flex items-center justify-center gap-5 mt-5" style="width:100%;">
+                    <div id="prev-review" class="">
+                        <svg style="fill:rgb(60, 79, 245);width:40%;height:auto;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.883px" height="122.882px" viewBox="0 0 122.883 122.882" enable-background="new 0 0 122.883 122.882" xml:space="preserve"><g><path d="M61.441,0L61.441,0l0.001,0.018c16.974,0,32.335,6.872,43.443,17.98s17.98,26.467,17.98,43.441h0.018v0.002l0,0h-0.018 c0,16.976-6.873,32.335-17.98,43.443c-11.109,11.107-26.467,17.979-43.442,17.979v0.018h-0.002l0,0v-0.018 c-16.975,0-32.335-6.872-43.443-17.98C6.89,93.775,0.018,78.417,0.018,61.442H0v-0.001V61.44h0.018 c0-16.975,6.872-32.334,17.98-43.443C29.106,6.89,44.465,0.018,61.44,0.018L61.441,0L61.441,0L61.441,0z M71.701,42.48 c1.908-1.962,1.863-5.101-0.098-7.009c-1.963-1.909-5.102-1.865-7.01,0.097L42.755,58.088l3.553,3.456l-3.568-3.46 c-1.911,1.971-1.863,5.118,0.108,7.029c0.058,0.056,0.116,0.109,0.175,0.162l21.571,22.057c1.908,1.962,5.047,2.006,7.01,0.097 c1.961-1.908,2.006-5.047,0.098-7.01L53.227,61.529L71.701,42.48L71.701,42.48z"/></g></svg>
+                    </div>
+                    <div id="next-review" class="">
+                        <svg style="fill:rgb(60, 79, 245);width:40%;height:auto;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.88px" height="122.88px" viewBox="0 0 122.88 122.88" enable-background="new 0 0 122.88 122.88" xml:space="preserve"><g><path d="M61.439,0L61.439,0v0.016c-16.976,0-32.335,6.874-43.443,17.981S0.016,44.464,0.016,61.438H0v0.002l0,0h0.016 c0,16.978,6.874,32.336,17.981,43.444c11.107,11.106,26.467,17.98,43.441,17.98v0.016h0.002l0,0v-0.016 c16.977,0,32.336-6.874,43.443-17.98c11.107-11.108,17.981-26.467,17.981-43.441h0.016v-0.003l0,0h-0.016 c0-16.976-6.874-32.335-17.981-43.442S78.416,0.016,61.442,0.016V0H61.439L61.439,0z M51.181,42.479 c-1.909-1.964-1.864-5.1,0.098-7.01c1.961-1.909,5.1-1.866,7.009,0.098l21.838,22.519l-3.554,3.456l3.569-3.458 c1.91,1.971,1.862,5.116-0.108,7.027c-0.057,0.057-0.115,0.109-0.175,0.161L58.288,87.329c-1.909,1.963-5.048,2.007-7.009,0.097 c-1.962-1.907-2.007-5.045-0.098-7.009l18.473-18.889L51.181,42.479L51.181,42.479z"/></g></svg>
+                    </div>
+                </div>
+
+                <div class="p-5">
+                    <a href="javascript:void(0)" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" data-modal-target="crud-modal" data-modal-toggle="crud-modal">
+                        Leave a Review
+                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-blue-900 hero px-2 pb-5" style="min-height:120vh;" id="contact-section" data-aos="fade-up" data-aos-duration="3000">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold text-white">Contact Us</h2>
+            <div class="md:flex md:items-center md:justify-center">
+                <div class="w-1/2">
+                    <hr class="text-center border b-8 border-blue-600 mt-5" align="center" style="border-width:5px;width:70%;">
+                </div>
+            </div>
+            <div class="md:flex md:items-center md:justify-center mt-10" align="center">
+                <div class="md:w-1/2 px-3">
+                <form id="contactForm2" class="mb-6">
+                    <div class="mb-6">
+                       <label for="email" class="block mb-2 text-sm font-medium text-white dark:text-white">Your email</label>
+                       <input type="email" id="senderEmail2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@company.com" required>
+                    </div>
+                    <div class="mb-6">
+                       <label for="subject" class="block mb-2 text-sm font-medium text-white dark:text-white">Subject</label>
+                       <input type="text" id="subject2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Let us know how we can help you" required>
+                    </div>
+                    <div class="mb-6">
+                       <label for="message" class="block mb-2 text-sm font-medium text-white dark:text-white">Your message</label>
+                       <textarea id="message2" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">Send message</button>
+                 </form>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about-section" class="py-20 px-10 dark:bg-gray-800 dark:text-white" data-aos="slide-up" data-aos-duration="500">
+        <div class="md:flex md:items-center md:justify-center">
+            <div class="md:w-1/2 mb-5 text-center">
+                <h1 class="text-4xl text-blue-900 dark:text-white font-bold text-center">Gallery</h1>
+                <div class="md:flex md:items-center md:justify-center">
+                    <div class="w-1/2">
+                        <hr class="text-center border b-8 border-blue-600 mt-5" style="border-width:5px;width:70%;">
+                    </div>
+                </div>
+                <p class="pt-5 mdtext-right text-center text-xl px-5">
+                    Pictures Speak Louder
+                </p>
+                <!--
+                <div style="margin-top:10%;margin-bottom:10%;">
+                    <a class="px-10 py-5 bg-purple-900 text-white hover:bg-blue-900 rounded-lg" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact" type="button">Make Enquiries</a>
+                </div>
+                -->
+            </div>
+            
+            <div class="md:w-1/2" align="center">
+
+                <div id="gallery" class="relative w-full" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                         <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="<?= URL_ROOT; ?>assets/images/csc/csc1.jpeg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                            <img src="<?= URL_ROOT; ?>assets/images/csc/csc2.jpeg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="<?= URL_ROOT; ?>assets/images/csc/csc3.jpeg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="<?= URL_ROOT; ?>assets/images/csc/csc4.jpeg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="<?= URL_ROOT; ?>assets/images/csc/csc5.jpeg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="<?= URL_ROOT; ?>assets/images/csc/csc6.jpeg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                        </div>
+                    </div>
+                    <!-- Slider controls -->
+                    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                            </svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                            </svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="hero px-2 pb-5" style="min-height:120vh;" id="locate-section" data-aos="fade-up" data-aos-duration="3000">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold text-white">Locate Us</h2>
+            <div class="md:flex md:items-center md:justify-center">
+                <div class="w-1/2">
+                    <hr class="text-center border b-8 border-blue-600 mt-5" align="center" style="border-width:5px;width:70%;">
+                </div>
+            </div>
+            <div class="mt-10" align="center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1686.7376626324442!2d3.906921244427484!3d6.829006200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sng!4v1700397546971!5m2!1sen!2sng" style="width:100%;height:500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-purple-900 text-white shadow m-4 dark:bg-gray-800" style="margin:0;width:100%;" id="footer">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-white sm:text-center dark:text-white">© 2023 <a href="https://flowbite.com/" class="hover:underline">Chrome Seabed Connect™</a>. All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="#about-section" class="hover:underline me-4 md:me-6 text-white">About</a>
+            </li>
+            <li>
+                <a href="#services-section" class="hover:underline me-4 md:me-6 text-white">Services</a>
+            </li>
+            <li>
+                <a href="#newsletter-section" class="hover:underline me-4 md:me-6 text-white">Social</a>
+            </li>
+            <li>
+                <a href="#contact-section" class="hover:underline text-white">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+    
+
+
+
+    <!--contact popup drawer -->
+    <!-- drawer component -->
+<div id="drawer-contact" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-contact-label">
+    <h5 id="drawer-label" class="inline-flex items-center mb-6 text-base font-semibold text-gray-500 uppercase dark:text-gray-400"><svg class="w-4 h-4 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+     <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+     <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+   </svg>Contact us</h5>
+    <button type="button" data-drawer-hide="drawer-contact" aria-controls="drawer-contact" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+       <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+       </svg>
+       <span class="sr-only">Close menu</span>
+    </button>
+    <form id="contactFormDrawer" class="mb-6">
+       <div class="mb-6">
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+          <input type="email" id="drawerSenderEmail" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required>
+       </div>
+       <div class="mb-6">
+          <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+          <input type="text" id="drawerSubject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Let us know how we can help you" required>
+       </div>
+       <div class="mb-6">
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+          <textarea id="drawerMessage" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea>
+       </div>
+       <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">Send message</button>
+    </form>
+    <p class="text-sm mb-5">
+       <a href="#" class="hover:underline dark:text-white">Contact Details:</a>
+    </p>
+    <div class="text-red-600 font-bold">
+    <p class="mb-2 text-sm dark:text-white">
+       <a href="#" class="hover:underline">69, Degun Street, Ijebu-Ode, Ogun State, Nigeria</a>
+    </p>
+    <p class="mb-2 text-sm dark:text-white">
+       <a href="#" class="hover:underline">seabedc@gmail.com</a>
+    </p>
+    <p class="text-sm dark:text-white">
+       <a href="#" class="hover:underline">+234-813-666-7839</a>
+    </p>
+    </div>
+ </div>
+    <!-- end contact popup drawer-->
+
+    <!-- Main modal -->
+<div id="crud-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-md max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                    Leave a Review
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="crud-modal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <form class="p-4 md:p-5" id="reviewForm" method="post">
+                <div class="grid gap-4 mb-4 grid-cols-2">
+                    <div class="col-span-2">
+                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Firstname</label>
+                        <input type="text" name="firstname" id="firstname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Firstname Here" required="">
+                    </div>
+                    <div class="col-span-2">
+                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Lastname</label>
+                        <input type="text" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Lastname Here" required="">
+                    </div>
+                    <div class="col-span-2">
+                        <label for="review" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Review</label>
+                        <textarea id="review" name="review" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write what you have to say about us"></textarea>                    
+                    </div>
+                </div>
+                <button type="submit" class="text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <svg class="me-1 -ms-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+                    Leave Review
+                </button>
+            </form>
+        </div>
+    </div>
+</div> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+        new Splide( '.splide' ).mount();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script>
+        let review_count = 0;
+        let current = 0;
+        const reviews = document.querySelectorAll(".review");
+
+        (function (){
+            reviews.forEach(element => {
+            element.style.display='none';   
+            })
+            reviews[0].style.display='block';
+            review_count = reviews.length;
+            current = 1;
+        }())
+
+        function next_review(){
+            current += 1;
+            if(current <= reviews.length){
+                reviews.forEach(element => {
+                    element.style.display='none';
+                });
+                reviews[current-1].style.display='block';
+            }else{
+                current = reviews.length-1;
+            }
+
+        }
+
+        function prev_review(){
+            current -= 1;
+            if(current > 0){
+                reviews.forEach(element => {
+                    element.style.display='none';
+                })
+                reviews[current-1].style.display='block';
+            }else{
+                current = 1;
+            }
+        }
+
+        const next_review_btn = document.querySelector('#next-review');
+        const prev_review_btn = document.querySelector("#prev-review");
+        
+        next_review_btn.addEventListener('click', next_review)
+        prev_review_btn.addEventListener('click', prev_review)
+    </script>
+
+    <script>
+        const reviewForm = document.querySelector("#reviewForm");
+        reviewForm.onsubmit = function(e){
+            e.preventDefault();
+            //transport to server.
+            const sendReview = fetch('/index/review', {
+                method: 'POST',
+                body: new FormData(document.querySelector('#reviewForm')),
+            })
+            .then(response => response.json() )
+            .then(response => {
+                switch(response.status){
+                    case 'success':
+                        console.log("Here now in swal")
+                        Swal.fire({
+                            title: "Review Added!",
+                            text: "Your review is now added on the website",
+                            icon: "success"                            
+                        });
+                        setTimeout(()=>{window.location.reload()}, 3000);
+                        break;
+                    case 'error':
+                        Swal.fire({
+                            title: "Error!",
+                            text: "Please Try Again",
+                            icon: "error"                            
+                        });
+                        break;
+                }
+            })
+        }
+    </script>
+
+    <script>
+        const contactForm1 = document.querySelector("#contactFormDrawer");
+        const contactForm2 = document.querySelector("#contactForm2");
+
+        function sendMessage(formData){
+            const submitForm = fetch("/activities/sendMessage", {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    //'Content-Type': 'application/json',
+                    //'Content-Type': 'application/x-www-form-urlencoded',
+                },
+            }).then(response => {
+                return response.json()
+            }).then(json => {
+                switch(json.status){
+                    case 'success':
+                        Swal.fire({
+                            title: "Message Sent!",
+                            text: "Await Reply within 24hours",
+                            icon: "success"                            
+                        })
+                        break;
+                    case 'error':
+                        Swal.fire({
+                            title: "Message Not Sent!",
+                            text: "Please Try Again",
+                            icon: "error"                            
+                        })
+                        break;
+                }
+            })
+        }
+
+        contactForm2.onsubmit = function(e){
+            e.preventDefault()
+            const formData = new FormData();
+            formData.append('sender-email', document.querySelector("#senderEmail2").value)
+            formData.append('subject', document.querySelector("#subject2").value)
+            formData.append('message', document.querySelector("#message2").value)
+            sendMessage(formData);
+        }
+        
+        contactForm1.onsubmit = function(e){
+            e.preventDefault()
+            const formData = new FormData();
+            formData.append('sender-email', document.querySelector("#drawerSenderEmail").value)
+            formData.append('subject', document.querySelector("#drawerSubject").value)
+            formData.append('message', document.querySelector("#drawerMessage").value)
+            sendMessage(formData);
+        }
+    </script>
+</body>
+</html>

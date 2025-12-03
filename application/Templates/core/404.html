@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block otherCSS %}
+{% endblock %}
+
+{% block title %}
+Error 404
+{% endblock %}
+
+{% block content %}
+<style>
+	div{
+		text-align: center;
+	}
+
+	h1{
+		margin-top: 0;
+		font-size: 7rem;
+		padding-bottom: 0;
+		margin-bottom: 0;
+
+	}
+	span{
+		margin-bottom: 0;
+		color: red;
+		margin: 0;
+	}
+
+	div #icon{
+		font-size: 3rem;
+		padding-top: 10px;
+	}
+
+</style>
+<div class = "mt-5">
+	<i class = "icofont-hand" id = "icon"></i>
+	<h1>404</h1>
+	<p style = "margin-top:0;padding-top:0">The page you're looking for does not exist</p>
+</div>
+<hr>
+<div>
+	<p class = "text-danger">You just tried to access <span class = "text-dark">/{{$_GET['page']}}</span> which does not exist please check your url OR </p>
+	<a href = "{% url index %}" class = "btn btn-dark">Go to homepage</a>
+{% endblock %}
+
+{% block otherJS %}
+{% endblock %}
