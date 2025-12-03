@@ -14,7 +14,7 @@ class Database {
     private $shutdownUpload;
 
     public function __construct(){   
-        $this->cloudStoragePath = 'https://storage.googleapis.com/chromeseabed-file-storage/public/chromeseabed.sqlite';
+        $this->cloudStoragePath = 'https://storage.googleapis.com/chromeseabed-file-storage/chromeseabed.sqlite';
         $this->cloudTempPath = '/tmp/chromeseabed.sqlite';
         if($this->isLocalEnv()){
             $this->pdo = $this->getLocalSqliteConnection();
